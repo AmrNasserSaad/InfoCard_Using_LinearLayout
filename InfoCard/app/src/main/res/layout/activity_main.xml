@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F8F8F8"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <!--  image -->
+<ImageView
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:layout_margin="12dp"
+    android:src="@drawable/profile_img"/>
+
+    <!--attributes-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingEnd="8dp"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/dm_sans"
+                android:text="Ahmed hassan"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:lineSpacingExtra="4sp"
+                android:background="@drawable/redroundedframe"
+                android:text="3 hr"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                android:layout_gravity="end"
+                 />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dm_sans"
+                android:text="Engineer"
+                android:textStyle="bold"
+                android:textColor="#122940"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="44dp"
+                android:layout_height="16dp"
+                android:layout_marginStart="95dp"
+                android:text="Russian"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:textColor="#122940" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="4dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:layout_marginTop="4dp"
+                android:src="@drawable/location_icon"  />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="17dp"
+                android:padding="2dp"
+                android:fontFamily="@font/dm_sans"
+                android:text="UK"
+                android:textSize="12sp"
+                android:textColor="#263238"
+                android:textStyle="normal"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="16dp"
+                android:layout_marginStart="96dp"
+                android:fontFamily="@font/dm_sans"
+                android:text="5 Days ago"
+                android:textStyle="normal"
+                android:textSize="12sp"
+                android:textColor="#122940" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(150 Reviews)"
+                android:textColor="#000000"
+                android:fontFamily="@font/dm_sans"
+                android:textSize="12sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="8dp"
+                android:text="4.5"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="#000000" />
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="4dp"
+                android:src="@drawable/star_icon" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
